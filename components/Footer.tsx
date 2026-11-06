@@ -45,15 +45,14 @@ export default function Footer() {
           </p>
 
           {/* QR Code */}
-          <div className="inline-block mb-4 p-2 rounded-2xl bg-white shadow-lg shadow-emerald-500/20 ring-1 ring-white/10">
-            <Image
-              src="/qr-code.png"
-              alt="QR Code"
-              width={160}
-              height={160}
-              unoptimized
-            />
-          </div>
+          <Image
+            src="/qr-code.png"
+            alt="QR Code"
+            width={280}
+            height={280}
+            unoptimized
+            className="mb-4 h-auto w-full max-w-[280px]"
+          />
 
           <div className="flex items-center gap-3">
             <a href="https://play.google.com/store/apps/details?id=com.yammy.dz">
