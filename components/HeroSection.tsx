@@ -234,7 +234,7 @@ export default function HeroSection() {
 
           {/* ✅ Google Play */}
           <motion.a
-            href="#"
+            href="https://play.google.com/store/apps/details?id=com.yammy.dz"
             aria-label="حمل تطبيق Yammy Dz من Google Play"
             variants={{
               hidden: { opacity: 0, scale: 0.75, y: 16 },
@@ -248,7 +248,7 @@ export default function HeroSection() {
 
           {/* ✅ App Store */}
           <motion.a
-            href="#"
+            href="https://apps.apple.com/il/app/yammy-dz/id6792374003"
             aria-label="حمل تطبيق Yammy Dz من App Store"
             variants={{
               hidden: { opacity: 0, scale: 0.75, y: 16 },
@@ -268,7 +268,7 @@ export default function HeroSection() {
 
           {/* ✅ سجل مطعمك */}
           <motion.a
-            href="/register"
+            href="https://play.google.com/store/apps/details?id=com.yammy.dz"
             aria-label="سجل مطعمك الآن في تطبيق Yammy Dz"
             className="border border-[#F04D43] text-[#F04D43] px-7 py-3 rounded-2xl font-semibold text-sm tracking-wide"
             variants={{
