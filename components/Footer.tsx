@@ -57,7 +57,7 @@ export default function Footer() {
           </div>
 
      <div className="flex items-center gap-3">
-  <a href="#">
+  <a href="https://play.google.com/store/apps/details?id=com.yammy.dz">
     <Image
       src="/google-play.png"
       alt="Google Play"
@@ -67,7 +67,7 @@ export default function Footer() {
     />
   </a>
 
-  <a href="#">
+  <a href="https://apps.apple.com/il/app/yammy-dz/id6792374003">
    <Image
            src="/toppng.com-download-on-the-app-store-badge-vector-400x400.png"
            alt="App Store"
