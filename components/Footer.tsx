@@ -34,8 +34,6 @@ export default function Footer() {
             <li><Link href="#how-it-works" className="hover:text-white">كيف يعمل</Link></li>
             <li><Link href="#services" className="hover:text-white">خدماتنا</Link></li>
           </ul>
-
-        
         </div>
 
         {/* 🟣 العمود 3 - تحميل + QR */}
@@ -54,31 +52,30 @@ export default function Footer() {
               width={160}
               height={160}
               unoptimized
+            />
+          </div>
+
+          <div className="flex items-center gap-3">
+            <a href="https://play.google.com/store/apps/details?id=com.yammy.dz">
+              <Image
+                src="/google-play.png"
+                alt="Google Play"
+                width={180}
+                height={54}
+                className="hover:opacity-90 transition"
               />
-</div>
-</div>
+            </a>
 
-     <div className="flex items-center gap-3">
-  <a href="https://play.google.com/store/apps/details?id=com.yammy.dz">
-    <Image
-      src="/google-play.png"
-      alt="Google Play"
-      width={180}
-      height={54}
-      className="hover:opacity-90 transition"
-    />
-  </a>
-
-  <a href="https://apps.apple.com/il/app/yammy-dz/id6792374003">
-   <Image
-           src="/toppng.com-download-on-the-app-store-badge-vector-400x400.png"
-           alt="App Store"
-           width={138}
-           height={39}
-           className="block"
-         />
-  </a>
-</div>
+            <a href="https://apps.apple.com/il/app/yammy-dz/id6792374003">
+              <Image
+                src="/toppng.com-download-on-the-app-store-badge-vector-400x400.png"
+                alt="App Store"
+                width={138}
+                height={39}
+                className="block"
+              />
+            </a>
+          </div>
         </div>
       </div>
 
@@ -86,26 +83,27 @@ export default function Footer() {
       <div className="border-t border-white/5 py-6">
         <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-4">
 
-        <div className="flex flex-col items-center md:items-start text-gray-400 text-sm gap-1">
-  <a href="mailto:contact@yammydz.com" className="hover:text-white">
-    support@yammy-dz.com
-  </a>
+          <div className="flex flex-col items-center md:items-start text-gray-400 text-sm gap-1">
+            <a href="mailto:contact@yammydz.com" className="hover:text-white">
+              support@yammy-dz.com
+            </a>
 
- <a
-  href="tel:+213671898235"
-  dir="ltr"
-  className="hover:text-white"
->
-  0671 89 82 35
-</a>
-</div>
-         {/* 
-  <div className="flex gap-4 text-gray-400 text-sm">
-    <a href="#" className="hover:text-white">Instagram</a>
-    <a href="#" className="hover:text-white">Facebook</a>
-    <a href="#" className="hover:text-white">TikTok</a>
-  </div> 
-*/}
+            <a
+              href="tel:+213671898235"
+              dir="ltr"
+              className="hover:text-white"
+            >
+              0671 89 82 35
+            </a>
+          </div>
+
+          {/*
+          <div className="flex gap-4 text-gray-400 text-sm">
+            <a href="#" className="hover:text-white">Instagram</a>
+            <a href="#" className="hover:text-white">Facebook</a>
+            <a href="#" className="hover:text-white">TikTok</a>
+          </div>
+          */}
 
           <div className="text-gray-500 text-xs">
             © 2026 Yammy Dz. جميع الحقوق محفوظة.
